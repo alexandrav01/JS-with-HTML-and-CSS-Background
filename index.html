@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>New Background</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            let body = document.querySelector("body");
+        document.querySelector("#lavender").addEventListener("click", function () {
+            body.style.backgroundColor = "hsl(240, 67%, 94%)";
+          });
+          document.querySelector("#mint").addEventListener("click", function () {
+            body.style.backgroundColor = "hsl(120, 93%, 79%)";
+          });
+          document.querySelector("#lemon").addEventListener("click", function () {
+            body.style.backgroundColor = "hsl(60, 95%, 59%)";
+          });
+        });
+      </script>
+  </head>
+
+  <body>
+    <button class="lavender" id="lavender">Lavender</button>
+
+    <button class="mint" id="mint">Mint</button>
+
+    <button class="lemon" id="lemon">Lemon</button>
+
+ 
+  </body>
+</html>
